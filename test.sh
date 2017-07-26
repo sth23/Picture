@@ -5,8 +5,8 @@ set -e # exit with nonzero exit code if anything fails
 mkdir tests
 cd tests
 git init
-git pull https://github.com/BrythonServer/ggame.git
-git pull https://${GH_REPO}
+git clone https://github.com/BrythonServer/ggame.git
+git clone https://${GH_REPO}
 cd ..
 
 python tests/test.py ${TESTMODULE}
