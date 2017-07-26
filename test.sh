@@ -6,7 +6,7 @@ mkdir tests
 cd tests
 git init
 git clone https://github.com/BrythonServer/ggame.git
-git clone https://${GH_REPO}
+git pull https://${GH_REPO}
 cd ..
 
 python tests/test.py ${TESTMODULE}
