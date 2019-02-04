@@ -83,6 +83,8 @@ for i in range(0,12):
     else:
         Sprite(whitestripe, (0, 20*i + 200))
         
+Sprite(bluebox, (0, 200))
+        
 for i in range(0,15):
     for j in range(0,7):
         Sprite(stars, (200 + 10*i, 10*j))
