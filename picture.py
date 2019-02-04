@@ -73,8 +73,8 @@ Sprite(sun, (600, 20))
 #Flag
 #13 Stripes, 7 red, 6 white
 bluebox = RectangleAsset(140, 140, blueline, blue)
-whitestripe = RectangleAsset(300, 20, whiteline, white)
-redstripe = RectangleAsset(300, 20, redline, red)
+whitestripe = RectangleAsset(400, 20, whiteline, white)
+redstripe = RectangleAsset(400, 20, redline, red)
 
 for i in range(0,12):
     if ((i % 2) == 0):
