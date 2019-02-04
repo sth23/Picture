@@ -76,7 +76,7 @@ bluebox = RectangleAsset(140, 140, blueline, blue)
 whitestripe = RectangleAsset(300, 20, whiteline, white)
 redstripe = RectangleAsset(300, 20, redline, red)
 
-for (i = 0; i <= 13; i++):
+for (i in range(0,12)):
     if ((i % 2) == 0):
         Sprite(redstripe, (0, 20*i + 200))
     else:
