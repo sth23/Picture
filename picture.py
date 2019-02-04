@@ -51,7 +51,7 @@ orangerectangle = RectangleAsset(200, 20, orangeline, orange)
 #bluerectangle = RectangleAsset(200, 20, blueline, blue)
 #purplerectangle = RectangleAsset(200, 20, blueline, blue)
 
-rain1 = Sprite(redrectangle, (0, 0)
+rain1 = Sprite(redrectangle, (0, 0))
 rain2 = Sprite(orangerectangle, (0, 20))
 #Sprite(yellowrectangle, 0, 40)
 #Sprite(greenrectangle, 0, 60)
