@@ -58,6 +58,8 @@ Sprite(greenrectangle, 0, 60)
 Sprite(bluerectangle, 0, 80)
 Sprite(purplerectangle, 0, 100)
 
+myapp = App()
+myapp.run()
 
 # add your code here /\  /\  /\
 
