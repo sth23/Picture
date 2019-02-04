@@ -76,11 +76,11 @@ bluebox = RectangleAsset(140, 140, blueline, blue)
 whitestripe = RectangleAsset(300, 20, whiteline, white)
 redstripe = RectangleAsset(300, 20, redline, red)
 
-for (x in range(0,13)):
-    if ((x % 2) == 0):
-        Sprite(redstripe, (0, 20*x + 200))
+for ((i = 1; i <= 13; i++))
+    if ((i % 2) == 0):
+        Sprite(redstripe, (0, 20*i + 200))
     else:
-        Sprite(whitestripe, (0, 20*x + 200))
+        Sprite(whitestripe, (0, 20*i + 200))
 
 myapp = App()
 myapp.run()
