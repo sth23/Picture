@@ -51,12 +51,16 @@ greenrectangle = RectangleAsset(200, 20, greenline, green)
 bluerectangle = RectangleAsset(200, 20, blueline, blue)
 purplerectangle = RectangleAsset(200, 20, purpleline, purple)
 
+sun = CircleAsset(20, yellowline, yellow)
+
 Sprite(redrectangle, (0, 0))
 Sprite(orangerectangle, (0, 20))
 Sprite(yellowrectangle, (0, 40))
 Sprite(greenrectangle, (0, 60))
 Sprite(bluerectangle, (0, 80))
 Sprite(purplerectangle, (0, 100))
+
+Sprite(sun, (200, 200))
 
 myapp = App()
 myapp.run()
