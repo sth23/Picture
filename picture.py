@@ -57,8 +57,6 @@ bluerectangle = RectangleAsset(200, 20, blueline, blue)
 purplerectangle = RectangleAsset(200, 20, purpleline, purple)
 whiterectangle = RectangleAsset(200, 20, whiteline, white)
 
-sun = CircleAsset(150, yellowline, yellow)
-
 #Rainbow
 Sprite(redrectangle, (0, 0))
 Sprite(orangerectangle, (0, 20))
@@ -68,6 +66,7 @@ Sprite(bluerectangle, (0, 80))
 Sprite(purplerectangle, (0, 100))
 
 #Sun
+sun = CircleAsset(150, yellowline, yellow)
 Sprite(sun, (600, 20))
 
 #Flag
@@ -88,9 +87,6 @@ Sprite(bluebox, (0, 200))
 for i in range(0,15):
     for j in range(0,7):
         Sprite(stars, (2 + 10*i, 205 + 20*j))
-
-myapp = App()
-myapp.run()
 
 # add your code here /\  /\  /\
 
