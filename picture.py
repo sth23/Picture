@@ -36,8 +36,28 @@ blue = Color(0x0000ff, 1.0)
 purple = Color(0x800080, 1.0)
 black = Color(0x000000, 1.0)
 
-# Define a line style that is a thin (1 pixel) wide black line
-thinline = LineStyle(1, black)
+blackline = LineStyle(1, black)
+redline = LineStyle(1, red)
+orangeline = LineStyle(1, orange)
+yellowline = LineStyle(1, yellow)
+greenline = LineStyle(1, green)
+blueline = LineStyle(1, blue)
+purpleline = LineStyle(1, purple)
+
+redrectangle = RectangleAsset(200, 20, redline, red)
+orangerectangle = RectangleAsset(200, 20, orangeline, orange)
+yellowrectangle = RectangleAsset(200, 20, yellowline, yellow)
+greenrectangle = RectangleAsset(200, 20, greenline, green)
+bluerectangle = RectangleAsset(200, 20, blueline, blue)
+purplerectangle = RectangleAsset(200, 20, blueline, blue)
+
+Sprite(redrectangle, 0, 0)
+Sprite(orangerectangle, 0, 20)
+Sprite(yellowrectangle, 0, 40)
+Sprite(greenrectangle, 0, 60)
+Sprite(bluerectangle, 0, 80)
+Sprite(purplerectangle, 0, 100)
+
 
 # add your code here /\  /\  /\
 
