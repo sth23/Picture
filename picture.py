@@ -49,7 +49,7 @@ orangerectangle = RectangleAsset(200, 20, orangeline, orange)
 yellowrectangle = RectangleAsset(200, 20, yellowline, yellow)
 greenrectangle = RectangleAsset(200, 20, greenline, green)
 bluerectangle = RectangleAsset(200, 20, blueline, blue)
-purplerectangle = RectangleAsset(200, 20, blueline, blue)
+purplerectangle = RectangleAsset(200, 20, purpleline, purple)
 
 Sprite(redrectangle, (0, 0))
 Sprite(orangerectangle, (0, 20))
