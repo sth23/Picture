@@ -72,15 +72,20 @@ Sprite(sun, (600, 20))
 
 #Flag
 #13 Stripes, 7 red, 6 white
-bluebox = RectangleAsset(140, 140, blueline, blue)
+bluebox = RectangleAsset(150, 140, blueline, blue)
 whitestripe = RectangleAsset(400, 20, whiteline, white)
 redstripe = RectangleAsset(400, 20, redline, red)
+stars = CircleAsset(3, whiteline, white)
 
 for i in range(0,12):
     if ((i % 2) == 0):
         Sprite(redstripe, (0, 20*i + 200))
     else:
         Sprite(whitestripe, (0, 20*i + 200))
+        
+for i in range(0,15):
+    for j in range(0,7):
+        Sprite(stars, (200 + 10*i, 10*j))
 
 myapp = App()
 myapp.run()
