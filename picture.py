@@ -87,7 +87,7 @@ Sprite(bluebox, (0, 200))
         
 for i in range(0,15):
     for j in range(0,7):
-        Sprite(stars, (10*i, 205 + 20*j))
+        Sprite(stars, (5 + 10*i, 205 + 20*j))
 
 myapp = App()
 myapp.run()
