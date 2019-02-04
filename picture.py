@@ -51,7 +51,7 @@ redrectangle = RectangleAsset(200, 20, redline, red)
 #bluerectangle = RectangleAsset(200, 20, blueline, blue)
 #purplerectangle = RectangleAsset(200, 20, blueline, blue)
 
-Sprite(redrectangle, 0, 0)
+Sprite(redrectangle)
 #Sprite(orangerectangle, 0, 20)
 #Sprite(yellowrectangle, 0, 40)
 #Sprite(greenrectangle, 0, 60)
